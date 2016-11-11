@@ -4,3 +4,8 @@ A: Initialization creates a directory named .git. We need it to keep track of th
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 A: Staging area includes the files in the working directory that are scheduled for commit, it helps to create smaller checkins 
 
+Q: How can you use the staging area to make sure you have one commit per logical change?
+A: Make sure "git diff --staged" shows only changes related to the logcal change
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A: Development of several features in the same time
