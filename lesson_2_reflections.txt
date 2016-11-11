@@ -1,0 +1,6 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+A: Initialization creates a directory named .git. We need it to keep track of the git changes
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+A: Staging area includes the files in the working directory that are scheduled for commit, it helps to create smaller checkins 
+
