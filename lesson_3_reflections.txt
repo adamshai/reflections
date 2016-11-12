@@ -3,3 +3,6 @@ A: When I want others to clone my code and/or to collaborate with other develope
 
 Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 A: If I collaborate on GitHub another developer may change the same lines that I change in my local repository. So automatic sync will modify my functionality or results in merge conflicts and I don't want that
+
+Q: Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A: Fork is a copy of a GitHub repositoy to your GitHub repository, it also maintains the data where the origin of the fork. Clone is a copy of either a remote (e.g. GitHub) or local Git repository. Branch is a way to have several versions of the same code. It is used when we want to fix a bug or create a new feature or just to experiment a code modification without actually modifying the stable version. We fork when we want to easily collaborate on a GitHub repository but also keep reference to the original contributer. We clone when we want when we already have a collaborated repository or when we want to use the files locally
