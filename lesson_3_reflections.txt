@@ -6,3 +6,11 @@ A: If I collaborate on GitHub another developer may change the same lines that I
 
 Q: Describe the differences between forks, clones, and branches. When would you use one instead of another?
 A: Fork is a copy of a GitHub repositoy to your GitHub repository, it also maintains the data where the origin of the fork. Clone is a copy of either a remote (e.g. GitHub) or local Git repository. Branch is a way to have several versions of the same code. It is used when we want to fix a bug or create a new feature or just to experiment a code modification without actually modifying the stable version. We fork when we want to easily collaborate on a GitHub repository but also keep reference to the original contributer. We clone when we want when we already have a collaborated repository or when we want to use the files locally
+
+Q: What is the benefit of having a copy of the last known state of the remote stored locally?
+A: Sometimes we don't want to merge all remote changes right away, e.g. when it introduced a new functionality we don't want in our code yet. We can have the remote state locally and work on a different branch and gradually merge it with our master branch, and then push the change.
+
+Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+A: Using Git I'll have to grant access to my local repository which would require passwords and IPs. Using GitHub I'll just need to add a collaborator permission on the GitHub repository webpage
+
+
