@@ -13,4 +13,6 @@ A: Sometimes we don't want to merge all remote changes right away, e.g. when it 
 Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 A: Using Git I'll have to grant access to my local repository which would require passwords and IPs. Using GitHub I'll just need to add a collaborator permission on the GitHub repository webpage
 
+Q: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+A: If I am developing a new feature on a separate branch and send a pull request, I'll need to wait for the repository owner to approve my pull request. If there are conflict or other changes to the repository I'll have to resolve them locally on my separate branch before resubmitting a pull request. So limiting all my changes to my separate branch is safe approach to get away from a stable version. If I develop locally on the master branch and I merge my change it will be easier to resolve conflicts.
 
